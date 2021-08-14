@@ -1,0 +1,1605 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "feature/login.feature:5",
+      "name": "Verify user is able to login",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "feature/login.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_lib.py:9"
+          },
+          "name": "User has launched the application",
+          "result": {
+            "duration": 9.49978518486023,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "feature/login.feature:7",
+          "match": {
+            "arguments": [
+              {
+                "name": "email",
+                "value": "tst1.automation@gmail.com"
+              },
+              {
+                "name": "password",
+                "value": "Test0001!!"
+              }
+            ],
+            "location": "steps/homescreen_steps.py:8"
+          },
+          "name": "User does login with tst1.automation@gmail.com and Test0001!!",
+          "result": {
+            "duration": 11.715654850006104,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "feature/login.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "steps/homescreen_steps.py:13"
+          },
+          "name": "Verify user on homescreen after login",
+          "result": {
+            "duration": 0.8720381259918213,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "author_name",
+        "test_case_id",
+        "smoke"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "feature/login.feature:2",
+  "name": "Login Module",
+  "status": "passed",
+  "tags": [
+    "regression",
+    "login"
+  ]
+},
+
+{
+  "description": [
+    "In order to review cucumber reports",
+    "Fred, a cucumber user",
+    "Wants to have cucumber reports in HTML"
+  ],
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:8",
+      "name": "",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:12",
+      "name": "Fred wants to see passing scenarios in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:14",
+          "name": "Fred runs a passing <pre> cucumber step with 2 seconds timeout",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:15",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:16",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testPassing"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:30",
+      "name": "Fred runs scenario outline for John and print on HTML report -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"John\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:31",
+      "name": "Fred runs scenario outline for Bob and print on HTML report -- @1.2 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"Bob\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:34",
+      "name": "Fred wants to print test data in the HTML reports for debugging purpose",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:35",
+          "name": "Fred attaches the \"test data to be printed\" to the Given step of passing cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:36",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:37",
+          "name": "cucumber-html-reporter should create HTML report with test-data",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testAttachDebugData"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:40",
+      "name": "Fred wants see the long doc string attached in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:41",
+          "name": "Fred runs a passing cucumber scenario with the below content",
+          "step_type": "given",
+          "text": [
+            "In order to see Doc String in the HTML report",
+            "As a Cucumber User,",
+            "I want to print below Doc String",
+            "",
+            "  Hey, I am a Doc string"
+          ]
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:52",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:53",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDocString"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:57",
+      "name": "Fred wants to use data table and print on HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:58",
+          "name": "Fred runs a passing scenario for the following data set",
+          "step_type": "given",
+          "table": {
+            "headings": [
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name"
+            ],
+            "rows": [
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ]
+            ]
+          }
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:71",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:72",
+          "name": "cucumber-html-reporter should create HTML report with data-table",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDataTable"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/happy/happy.feature:2",
+  "name": "Happy HTML reporting",
+  "status": "skipped",
+  "tags": [
+    "happy",
+    "reporting"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/admin/happy.feature:3",
+      "name": "Admin has a happy feature",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/admin/happy.feature:4",
+          "name": "Fred is an admin",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/admin/happy.feature:5",
+          "name": "his scenario is a duplicate folder name",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/admin/happy.feature:6",
+          "name": "it won't open unless it's the first one",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/happy/admin/happy.feature:1",
+  "name": "Admin can see Happy HTML reporting",
+  "status": "skipped",
+  "tags": []
+},
+
+{
+  "description": [
+    "In order to review cucumber reports",
+    "Fred, a cucumber user",
+    "Wants to have cucumber reports in HTML"
+  ],
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:8",
+      "name": "",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:12",
+      "name": "Fred wants to see passing scenarios in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:14",
+          "name": "Fred runs a passing cucumber step with 2 seconds timeout",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:15",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:16",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testPassing"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:30",
+      "name": "Fred runs scenario outline for John and print on HTML report -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"John\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:31",
+      "name": "Fred runs scenario outline for Bob and print on HTML report -- @1.2 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"Bob\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:34",
+      "name": "Fred wants to print test data in the HTML reports for debugging purpose",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:35",
+          "name": "Fred attaches the \"test data to be printed\" to the Given step of passing cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:36",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:37",
+          "name": "cucumber-html-reporter should create HTML report with test-data",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testAttachDebugData"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:40",
+      "name": "Fred wants see the long doc string attached in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:41",
+          "name": "Fred runs a passing cucumber scenario with the below content",
+          "step_type": "given",
+          "text": [
+            "In order to see Doc String in the HTML report",
+            "As a Cucumber User,",
+            "I want to print below Doc String",
+            "",
+            "  Hey, I am a Doc string"
+          ]
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:52",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:53",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDocString"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:57",
+      "name": "Fred wants to use data table and print on HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:58",
+          "name": "Fred runs a passing scenario for the following data set",
+          "step_type": "given",
+          "table": {
+            "headings": [
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name"
+            ],
+            "rows": [
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ]
+            ]
+          }
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:71",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:72",
+          "name": "cucumber-html-reporter should create HTML report with data-table",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDataTable"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/happy.feature:2",
+  "name": "Happy HTML reporting",
+  "status": "skipped",
+  "tags": [
+    "happy",
+    "reporting"
+  ]
+},
+
+{
+  "description": [
+    "In order to review cucumber reports",
+    "Fred, a cucumber user",
+    "Wants to have cucumber reports in HTML"
+  ],
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:8",
+      "name": "",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:12",
+      "name": "Fred wants to see passing scenarios in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:14",
+          "name": "Fred runs a passing cucumber step with 2 seconds timeout",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:15",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:16",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testPassing"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:30",
+      "name": "Fred runs scenario outline for John and print on HTML report -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"John\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:31",
+      "name": "Fred runs scenario outline for Bob and print on HTML report -- @1.2 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:24",
+          "name": "Fred runs a passing cucumber scenario on behalf of \"Bob\"",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:25",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:26",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testScenarioOutline"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:34",
+      "name": "Fred wants to print test data in the HTML reports for debugging purpose",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:35",
+          "name": "Fred attaches the \"test data to be printed\" to the Given step of passing cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:36",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:37",
+          "name": "cucumber-html-reporter should create HTML report with test-data",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testAttachDebugData"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:40",
+      "name": "Fred wants see the long doc string attached in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:41",
+          "name": "Fred runs a passing cucumber scenario with the below content",
+          "step_type": "given",
+          "text": [
+            "In order to see Doc String in the HTML report",
+            "As a Cucumber User,",
+            "I want to print below Doc String",
+            "",
+            "  Hey, I am a Doc string"
+          ]
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:52",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:53",
+          "name": "cucumber-html-reporter should create HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDocString"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:57",
+      "name": "Fred wants to use data table and print on HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:9",
+          "name": "this feature runs with background",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:58",
+          "name": "Fred runs a passing scenario for the following data set",
+          "step_type": "given",
+          "table": {
+            "headings": [
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name",
+              "id",
+              "name"
+            ],
+            "rows": [
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ],
+              [
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A",
+                "1",
+                "data-A"
+              ],
+              [
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B",
+                "2",
+                "data-B"
+              ]
+            ]
+          }
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:71",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:72",
+          "name": "cucumber-html-reporter should create HTML report with data-table",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "testDataTable"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/happy/overjoyed/overjoyed.feature:2",
+  "name": "Happy HTML reporting",
+  "status": "skipped",
+  "tags": [
+    "happy",
+    "reporting"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:5",
+      "name": "Fred wants to see a Screenshot attached to the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:6",
+          "name": "Fred runs a failing cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:7",
+          "name": "he provides cucumber JSON file to reporter",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:8",
+          "name": "a failing scenario captures a screenshot",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:9",
+          "name": "a failing scenario captures a json payload",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:10",
+          "name": "cucumber-html-reporter should create HTML report with Screenshot",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "attachScreenshots"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:13",
+      "name": "Fred wants to see if steps are pending in the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:14",
+          "name": "Fred runs a cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:15",
+          "name": "he left this step as a pending",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:16",
+          "name": "cucumber-html-reporter should report pending step with code-snippets in HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "pendingStep"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:19",
+      "name": "Fred wants to see if steps are undefined on the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:20",
+          "name": "Fred runs a cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:21",
+          "name": "he left this step as a undefined",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:22",
+          "name": "cucumber-html-reporter should create undefined step in HTML report",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "undefinedStep"
+      ],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:25",
+      "name": "Fred wants to see if steps are ambiguous on the HTML report",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:26",
+          "name": "Fred runs a cucumber scenario",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:27",
+          "name": "he left this step to be ambiguous",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:28",
+          "name": "cucumber-html-reporter should create HTML report with ambiguous steps",
+          "step_type": "then"
+        }
+      ],
+      "tags": [
+        "ambiguousStep"
+      ],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/unhappy/unhappy.feature:2",
+  "name": "Unhappy HTML reporting",
+  "status": "skipped",
+  "tags": [
+    "unhappy",
+    "reporting"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "node_modules/cucumber-html-reporter/test/features/unhappy/admin/unhappy.feature:3",
+      "name": "Admin has a unhappy feature",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/admin/unhappy.feature:4",
+          "name": "Fred is an admin",
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/admin/unhappy.feature:5",
+          "name": "his scenario is in a duplicate folder name",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "node_modules/cucumber-html-reporter/test/features/unhappy/admin/unhappy.feature:6",
+          "name": "it won't open unless it's the first one",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "node_modules/cucumber-html-reporter/test/features/unhappy/admin/unhappy.feature:1",
+  "name": "Admin can see Unhappy HTML reporting",
+  "status": "skipped",
+  "tags": []
+}
+]

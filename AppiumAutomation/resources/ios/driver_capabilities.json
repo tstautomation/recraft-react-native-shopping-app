@@ -1,0 +1,11 @@
+{
+  "automationName": "XCUITest",
+  "platformName": "iOS",
+  "platformVersion": "13.6",
+  "deviceName": "iPhone 11 Pro",
+  "app": "/Users/vthakkar/Downloads/submission-league.app",
+  "newCommandTimeout": "0",
+  "noReset": false,
+  "fullReset": false,
+  "autoAcceptAlerts": true
+}

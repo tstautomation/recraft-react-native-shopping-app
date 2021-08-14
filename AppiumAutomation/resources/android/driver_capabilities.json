@@ -1,0 +1,11 @@
+{
+  "automationName": "UIAutomator2",
+  "platformName": "android",
+  "platformVersion": "9",
+  "deviceName": "iPhone 8",
+  "app": "C:\\Users\\vaish\\Documents\\AppiumAutomationTharun\\App\\EHV2.0.0-B14.apk",
+  "newCommandTimeout": "0",
+  "noReset": true,
+  "fullReset": false,
+  "autoAcceptAlerts": "False"
+}
